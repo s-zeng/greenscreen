@@ -1,3 +1,6 @@
+*DS_STORE
+history.yml
+
 *.rbc
 capybara-*.html
 .rspec
@@ -46,4 +49,3 @@ bower.json
 
 # Ignore node_modules
 node_modules/
-

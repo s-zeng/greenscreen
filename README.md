@@ -1,2 +1,1 @@
-# greenscreen
-Car dashboard to monitor emissions and other enviromental metrics
+Check out http://smashing.github.io/smashing for more information.
