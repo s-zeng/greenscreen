@@ -1,6 +1,6 @@
 # GreenScreen
 
-The result of the 24 hour hackathon MakeHarvard.
+The result of the 24 hour hackathon MakeHarvard. Our original writeup:
 
 > Fundamentally, most people have a little bit of inherent sense that “being green” is somehow “better” than being otherwise. But to many, this is nothing more than a vague notion - it exists only as a fleeting semblance of a thought in the back of a head.
 
