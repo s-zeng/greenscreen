@@ -1,14 +1,14 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
-$background-color:  #303030;
+$background-color:  #152030;
 
 $title-color:       rgba(255, 255, 255, 0.7);
-$moreinfo-color:    rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(127, 255, 127, 0.7);
 $updateat-color:    rgba(255, 255, 255, 1);
 
 // If you want the title at the top, set the position to 'top'
-$title-position:    center;
+$title-position:    top;
 
 // ----------------------------------------------------------------------------
 // Widget-line-chart styles
@@ -21,7 +21,7 @@ $title-position:    center;
     @if $title-position == 'top' {
       left: 0;
       right: 0;
-      top: 10px;
+      top: 20px;
       position: absolute;
     }
     @else {

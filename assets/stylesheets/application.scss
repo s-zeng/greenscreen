@@ -8,13 +8,13 @@
 $background-color: #222;
 $text-color: #fff;
 
-$background-danger-color-1: #e82711;
-$background-danger-color-2: #9b2d23;
-$text-danger-color: #fff;
-
-$background-warning-color-1: #eeae32;
-$background-warning-color-2: #ff9618;
+$background-warning-color-1: #e82711;
+$background-warning-color-2: #9b2d23;
 $text-warning-color: #fff;
+
+$background-danger-color-1: #eeae32;
+$background-danger-color-2: #ff9618;
+$text-danger-color: #fff;
 
 @-webkit-keyframes status-warning-background {
   0%   { background-color: $background-warning-color-1; }
@@ -39,6 +39,8 @@ html {
   font-size: 100%;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 body {
@@ -117,16 +119,17 @@ h3 {
 }
 
 .icon-background {
-  pointer-events: none;
-  width: 100%!important;
-  height: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  opacity: 0.1;
-  font-size: 275px;
-  text-align: center;
-  margin-top: 82px;
+    display: block;
+    pointer-events: none;
+    width: 100% !important;
+    height: 200px;
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    opacity: 0.1;
+    font-size: 275px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .list-nostyle {
@@ -151,7 +154,7 @@ h3 {
   vertical-align: middle;
 }
 
-.widget.status-warning {
+.widget.status-red {
   background-color: $background-warning-color-1;
   @include animation(status-warning-background, 2s, ease, infinite);
 
@@ -164,7 +167,15 @@ h3 {
   }
 }
 
-.widget.status-danger {
+.widget.status-green{
+  background-color: #2fbf71
+}
+
+.widget.status-grey{
+  background-color: #2f2f2f
+}
+
+.widget.status-yellow {
   color: $text-danger-color;
   background-color: $background-danger-color-1;
   @include animation(status-danger-background, 2s, ease, infinite);
