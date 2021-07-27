@@ -1,3 +1,5 @@
+# ARCHIVED -- HACKATHON PROJECT
+
 # GreenScreen
 
 The result of the 24 hour hackathon MakeHarvard. Our original writeup:
